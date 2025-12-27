@@ -1,0 +1,14 @@
+datatable(Question:string)
+[
+    "- What can you do?",
+    "- What was the MTTR and MTTA from Dec 1 to today?",
+    "- Give me a breakdown of the most occurring 5 incidents from the last 90 days, considering only those with high or medium severity, in the active or closed state, and classified as true positive. Format the output as a table.",
+    "- List the top 3 operators with assigned incidents. Consider the incidents created from July 1st to Dec. 1st 2025.",
+    "- List the top 5 users affected by incidents.",
+    "- List the top users affected by incidents created in the last 30 days and classified as true positives.",
+    "- List the top devices affected by incidents classified as true positives or false positives.",
+    "- List the top 5 users and devices affected by incidents with a classification (exclude the unclassified ones) in the last 2 months.",
+    "- (any additional prompt for querying data in the Sentinel Data Lake)"
+]
+| serialize
+| project Id = row_number(1), Question
