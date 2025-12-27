@@ -8,9 +8,9 @@ Provides a summary of incidents for the selected time range, grouped by severity
  - Classification breakdown (BenignPositive, FalsePositive, TruePositive, Undetermined)
  - MITRE ATT&CK tactics and techniques 
 The summary can optionally be filtered by severity, status, and classification. Allowed values (case insensitive):
- - severities: "High", "Medium", "Low", "Informational" (use empty array as default)
- - status: "New", "Active", "Closed" (use empty array as default)
- - classificationResults: "truePositive", "falsePositive", "BenignPositive", "Undetermined", "" (use empty array as default)
+ - severities: "High", "Medium", "Low", "Informational"
+ - status: "New", "Active", "Closed"
+ - classificationResults: "TruePositive", "FalsePositive", "BenignPositive", "Undetermined", "" (where "" means unclassified)
 Results are sorted by Total count (descending), Severity (descending), and Title (ascending).
 
 #Parameters:
