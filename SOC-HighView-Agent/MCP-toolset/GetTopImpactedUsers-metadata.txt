@@ -6,7 +6,7 @@ Get the list of the users impacted by the biggest number of alerts created in th
 The summary can optionally be filtered by severity, status, and classification. Allowed values (case insensitive):
 - severities: "High", "Medium", "Low", "Informational" 
 - status: "New", "InProgress", "Resolved" 
-- classification: "TruePositive", "FalsePositive", "BenignPositive", "InformationalExpectedActivity", "" (where "" means unclassified)
+- classification: "TruePositive","FalsePositive","InformationalExpectedActivity","". (where "" means unclassified)
 
 #Parameters:
 - start_date
