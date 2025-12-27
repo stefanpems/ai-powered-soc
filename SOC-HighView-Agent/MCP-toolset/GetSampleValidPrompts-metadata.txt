@@ -1,0 +1,5 @@
+#Name: 
+GetSampleValidPrompts
+
+#Description: 
+Returns a list of valid prompts for the agent using this custom MCP toolset.
