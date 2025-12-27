@@ -1,0 +1,24 @@
+#Name: 
+GetTopImpactedUsers
+
+#Description: 
+Get the list of the users impacted by the biggest number of alerts created in the specified period.
+
+#Parameters:
+- start_date
+  A date-time value in YYYY-MM-DDTHH:MM:SSZ format defining the beginning of the time range for the query. 
+
+- end_date
+  A date-time value in YYYY-MM-DDTHH:MM:SSZ format defining the end of the time range for the query. 
+
+- csv_of_severities
+  Comma separated list of the severity levels to include. Allowed values (case insensitive): "High", "Medium", "Low","Informational". Include the opening and closing double quotes for each value, and separate each value with a comma. 
+
+- csv_of_status
+  Comma separated list of the status to include. Allowed values (case insensitive): "New","InProgress","Resolved". Include the opening and closing double quotes for each value, and separate each value with a comma. 
+
+- csv_of_classifications
+  Comma separated list of the classifications to include. Allowed values (case insensitive): "TruePositive", "FalsePositive", "InformationalExpectedActivity", "Undetermined", "". Include the opening and closing double quotes for each value, and separate each value with a comma. Use "" to include unclassified items.
+
+- top_results_number
+  An integer specifying how many top results to return.
