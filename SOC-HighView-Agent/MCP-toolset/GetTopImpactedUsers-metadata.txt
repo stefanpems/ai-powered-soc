@@ -3,6 +3,10 @@ GetTopImpactedUsers
 
 #Description: 
 Get the list of the users impacted by the biggest number of alerts created in the specified period.
+The summary can optionally be filtered by severity, status, and classification. Allowed values (case insensitive):
+- severities: "High", "Medium", "Low", "Informational" 
+- status: "New", "InProgress", "Resolved" 
+- classification: "TruePositive", "FalsePositive", "BenignPositive", "InformationalExpectedActivity", "" (where "" means unclassified)
 
 #Parameters:
 - start_date
@@ -18,7 +22,7 @@ Get the list of the users impacted by the biggest number of alerts created in th
   Comma separated list of the status to include. Allowed values (case insensitive): "New","InProgress","Resolved". Include the opening and closing double quotes for each value, and separate each value with a comma. 
 
 - csv_of_classifications
-  Comma separated list of the classifications to include. Allowed values (case insensitive): "TruePositive", "FalsePositive", "InformationalExpectedActivity", "Undetermined", "". Include the opening and closing double quotes for each value, and separate each value with a comma. Use "" to include unclassified items.
+  Comma separated list of the classifications to include. Allowed values (case insensitive): "TruePositive", "FalsePositive", "InformationalExpectedActivity", "". Include the opening and closing double quotes for each value, and separate each value with a comma. Use "" to include unclassified items.
 
 - top_results_number
   An integer specifying how many top results to return.
