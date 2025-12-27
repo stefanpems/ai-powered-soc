@@ -1,6 +1,8 @@
-Name: GetIncidentsCountStats
+#Name: 
+GetIncidentsCountStats
 
-Description: Provides a summary of incidents for the selected time range, grouped by severity and title and including:
+#Description: 
+Provides a summary of incidents for the selected time range, grouped by severity and title and including:
  - Total count
  - Status breakdown (New, Active, Closed)
  - Classification breakdown (BenignPositive, FalsePositive, TruePositive, Undetermined)
@@ -11,8 +13,7 @@ The summary can optionally be filtered by severity, status, and classification. 
  - classificationResults: "truePositive", "falsePositive", "BenignPositive", "Undetermined", "" (use empty array as default)
 Results are sorted by Total count (descending), Severity (descending), and Title (ascending).
 
-Parameters:
-
+#Parameters:
 - start_date
   A date-time value in YYYY-MM-DDTHH:MM:SSZ format defining the beginning of the time range for the query. 
 
