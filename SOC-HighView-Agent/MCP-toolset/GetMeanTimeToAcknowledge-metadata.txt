@@ -1,0 +1,17 @@
+#Name: 
+GetMeanTimeToAcknowledge
+
+#Description: 
+Calculates the Mean Time to Acknowledge (MTTA) for incidents created within the specified period and compares it to the MTTA for the entire previous month.
+MTTA is defined as the average time (in minutes) between incident creation and the first modification.
+Returns: 
+- MTTA for the specified period
+- MTTA for the previous month
+- Exact start and end dates of the two time windows used for the calculation.
+
+#Parameters:
+- start_date
+  A date-time value in YYYY-MM-DDTHH:MM:SSZ format defining the beginning of the time range for the query. 
+
+- end_date
+  A date-time value in YYYY-MM-DDTHH:MM:SSZ format defining the end of the time range for the query. 
