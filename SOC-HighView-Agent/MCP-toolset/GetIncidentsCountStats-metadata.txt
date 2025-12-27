@@ -10,7 +10,7 @@ Provides a summary of incidents for the selected time range, grouped by severity
 The summary can optionally be filtered by severity, status, and classification. Allowed values (case insensitive):
  - severities: "High", "Medium", "Low", "Informational"
  - status: "New", "Active", "Closed"
- - classificationResults: "TruePositive", "FalsePositive", "BenignPositive", "Undetermined", "" (where "" means unclassified)
+ - classification: "TruePositive", "FalsePositive", "BenignPositive", "Undetermined", "" (where "" means unclassified)
 Results are sorted by Total count (descending), Severity (descending), and Title (ascending).
 
 #Parameters:
