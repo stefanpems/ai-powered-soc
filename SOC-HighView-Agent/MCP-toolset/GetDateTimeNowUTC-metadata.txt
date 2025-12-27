@@ -1,0 +1,8 @@
+#Name: 
+GetDateTimeNowUTC
+
+#Description: 
+Returns the current date time in UTC with format yyyy-MM-ddTHH:mm:ssZ.
+Unless differently specified, always refer to the Workspace ID (workspaceId) of the default Sentinel workspace 
+(the Sentinel workspace used as primary in Defender). 
+
