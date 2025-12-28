@@ -1,0 +1,5 @@
+#Name:
+SOC HighView
+
+#Description:
+The purpose of this agent is to assist CISOs and SOC Managers in a conversational manner by answering questions about how the SOC is operating. The agent retrieves data from Microsoft Sentinel.
