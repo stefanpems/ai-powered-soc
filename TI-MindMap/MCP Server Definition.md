@@ -1,7 +1,7 @@
-#Server Name:
+# Server Name:
 TI MindMap MCP Server
 
-#Server Description:
+# Server Description:
 The TI Mindmap Model Context Protocol (MCP) server allows AI assistants to query threat intelligence data directly.
 Available Tools (16):
 * Reports: List, search, and retrieve threat intelligence reports
@@ -10,14 +10,14 @@ Available Tools (16):
 * IOC Search: Query indicators across all processed data
 * STIX Export: Retrieve structured threat data
 
-#Server URL:
+# Server URL:
 https://mcp.ti-mindmap-hub.com/mcp
 
-#Authentication
+# Authentication
 API Key
 
-#Type:
+# Type:
 Header
 
-#Header Name: 
+# Header Name: 
 X-API-Key
