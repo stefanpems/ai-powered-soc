@@ -19,5 +19,5 @@ API Key
 #Type:
 Header
 
-# Header Name: 
+#Header Name: 
 X-API-Key
