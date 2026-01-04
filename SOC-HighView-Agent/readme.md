@@ -1,0 +1,1 @@
+For context and usage, please refer to the article **[Conversational Agent for CISO and SOC Managers in Microsoft Teams and Copilot](https://www.linkedin.com/pulse/conversational-agent-ciso-soc-managers-microsoft-stefano-pescosolido-lxrkf/)** published on LinkedIn.
